@@ -1,7 +1,7 @@
 ﻿using System;
 //Console.WriteLine("Hello, Kasturi !");
 
-namespace cSharpTutorials.helloWorld
+namespace CSharpTutorials.HelloWorld
 {
     class HelloWorld
     {
@@ -75,6 +75,7 @@ To print both the statements
 
 //Note: C# is case-sensitive; "MyClass" and "myclass" have different meaning.
 //Note: Unlike Java, the name of the C# file does not have to match the class name, but they often do (for better organization).
+
 
 
 
