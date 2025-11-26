@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Runtime.Intrinsics.X86;
 
-namespace cSharpTutorials.datatTypesAndVariables
+namespace CSharpTutorials.DataTypesAndVariables
 {
     class DataTypesAndVariables
     {
@@ -147,4 +147,5 @@ namespace cSharpTutorials.datatTypesAndVariables
         }
     }
 }
+
 
