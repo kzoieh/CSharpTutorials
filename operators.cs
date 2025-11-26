@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace cSharpTutorials.operators
+namespace CSharpTutorials.Operators
 {
     class Operators
     {
@@ -62,3 +62,4 @@ namespace cSharpTutorials.operators
         }
     }
 }
+
