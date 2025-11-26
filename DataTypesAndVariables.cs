@@ -39,14 +39,14 @@ namespace CSharpTutorials.DataTypesAndVariables
             num = 0;
             Console.WriteLine(num);
 
-            long l_num = 121231L;
-            Console.WriteLine(l_num);
+            long longNum = 121231L;
+            Console.WriteLine(longNum);
 
-            float float_num = 0.03453f;
-            Console.WriteLine(float_num);
+            float floatNum = 0.03453f;
+            Console.WriteLine(floatNum);
 
-            double double_num = 5.99D;
-            Console.WriteLine(double_num);
+            double doubleNum = 5.99D;
+            Console.WriteLine(doubleNum);
 
             //Use float or double?
 
@@ -62,8 +62,8 @@ namespace CSharpTutorials.DataTypesAndVariables
             //e = power of 10
 
 
-            string first_name = "Kasturi";
-            Console.WriteLine(first_name);
+            string firstName = "Kasturi";
+            Console.WriteLine(firstName);
 
             bool flag = true;
             Console.WriteLine(flag);
@@ -72,26 +72,26 @@ namespace CSharpTutorials.DataTypesAndVariables
 
             //const makes the variable immutable
 
-            const int my_num = 10;
+            const int myNum = 10;
             //my_num = 12; gives error
             // You cannot declare a constant variable without assigning the value. If you do, an error will occur:
 
-            Console.WriteLine(my_num);
+            Console.WriteLine(myNum);
 
             //CONCATANATION using +
 
-            Console.WriteLine("Hello " + first_name);
+            Console.WriteLine("Hello " + firstName);
 
-            string last_name = "Kasturi";
+            string lastName = "Kasturi";
 
-            string full_name = first_name + " " + last_name;
+            string fullName = firstName + " " + lastName;
 
-            Console.WriteLine(full_name);
-            Console.WriteLine(first_name + " " + last_name);
+            Console.WriteLine(fullName);
+            Console.WriteLine(firstName + " " + lastName);
 
             //Operation using + 
 
-            Console.WriteLine(5 + my_num);
+            Console.WriteLine(5 + myNum);
 
             int x, y, z;
             x = y = z = 10;
@@ -100,6 +100,7 @@ namespace CSharpTutorials.DataTypesAndVariables
             /*
              * VARIABLES 
              * 
+             * Use camelCase
              * Variable Names can contain letters, digits and the underscore character (_)
              * Variable Names must begin with a letter or underscore
              * Variable Names should start with a lowercase letter, and cannot contain whitespace
@@ -136,16 +137,19 @@ namespace CSharpTutorials.DataTypesAndVariables
                     *Convert.ToInt64 (long)     /
             */
 
-            int etcs_int = 10;
-            double etcs_double = 5.25;
-            bool etcs_bool = true;
+            int etcsInt = 10;
+            double etcsDouble = 5.25;
+            bool etcsBool = true;
 
-            Console.WriteLine(Convert.ToString(etcs_int) + " String");    // convert int to string
-            Console.WriteLine(Convert.ToDouble(etcs_int));    // convert int to double
-            Console.WriteLine(Convert.ToInt32(etcs_double));  // convert double to int
-            Console.WriteLine(Convert.ToString(etcs_bool) + " String");   // convert bool to string
+            // The variable is not a good naming example, name should be meaningful.
+
+            Console.WriteLine(Convert.ToString(etcsInt) + " String");    // convert int to string
+            Console.WriteLine(Convert.ToDouble(etcsInt));    // convert int to double
+            Console.WriteLine(Convert.ToInt32(etcsDouble));  // convert double to int
+            Console.WriteLine(Convert.ToString(etcsBool) + " String");   // convert bool to string
         }
     }
 }
+
 
 
