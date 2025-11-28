@@ -12,26 +12,45 @@ namespace CSharpTutorials.DataTypesAndVariables
             Console.WriteLine("working");
             /*
              * Datatypes:
-             * 
-             * 1. int (x, y, -x, -y)
-             * 4 bytes -  -2,147,483,648 to 2,147,483,647
-             * 
-             * 2. long 
-             * 8 bytes - -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
-             * 
-             * 3. float
-             * 4 bytes - Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
-             * 
-             * 4. double (xx.yy, -xx.yy)
-             * 8 bytes - Stores fractional numbers. Sufficient for storing 15 decimal digits
-             * 
-             * 5. char 'a'
-             * 2 byte - Stores a single character/letter, surrounded by single quotes
-             * 
+             * Data Types in C# is Mainly Divided into 3 Categories:
+                -Value Data Types - will directly store the variable value in memory. The derived class for these data types are System.ValueType.
+                -Reference Data Types
+                -Pointer Data Type
+
+              1. Value Data Types  
+              ---------------------------------------------------------------------------------------------------
+             
+              a) Integrals - 8-bit, 16-bit, 32-bit and 64-bit value
+             
+             * 1. int (x, y, -x, -y) - 32 bit -> -2,147,483,648 to 2,147,483,647 - System.Int32
+             * 2. long - 64 bit -> -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 - System.Int64
+             * 3. sbyte	- signed integer - 8bit	-> -128 to 127	System.SByte
+             * 4. byte - unsigned integer - 8bit ->	0 to 255 System.Byte
+
+              b) Floating Point Types - By default floating data types are the double type.
+              
+             * 3. float 0.0F - 32bit -> ±1.5 × 10-45 to ±3.4 × 1038 - Stores fractional numbers. Sufficient for storing 7 decimal digits - System.Single
+             * 4. double 0.0D - 64bit -> ±5.0 × 10-324 to ±1.7 × 10308 - Stores fractional numbers. Sufficient for storing 15 decimal digits - System.Double
+
+              c) Deecimal Types
+
+             * 5. decimal 0.0M - 128bits - ±1.0 × 10-28 to ±7.9228 × 1028 -  suitable for financial and monetary calculations, has 28-29 digit precision - System.Decimal
+              
+              d)  Boolean 
+
+             * 6. bool true/false - 8bits - Stores true or false values - System.Boolean
+              
+              e) Character Types
+              
+             * 7. char 'a' - 16bits -> U +0000 to U +ffff - Stores a single character/letter, surrounded by single quotes
+
+              2. Reference Data Types
+              ---------------------------------------------------------------------------------------------------
+             
              * 6. string "a bc"
              * 2 bytes per character - Stores a sequence of characters, surrounded by double quotes
              * 
-             * 7. bool true/false
+             * 7.
              * 1 byte - Stores true or false values 
             */
 
@@ -150,6 +169,7 @@ namespace CSharpTutorials.DataTypesAndVariables
         }
     }
 }
+
 
 
 
