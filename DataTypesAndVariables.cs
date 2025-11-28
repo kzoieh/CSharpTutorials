@@ -123,8 +123,8 @@ namespace CSharpTutorials.DataTypesAndVariables
                 
             int n = 10; 
             int* p = &n; // store variable n address location in pointer variable p
-            Console.WriteLine("Value :{0}", n);
-            Console.WriteLine("Address :{0}", (int)p);
+            Console.WriteLine("Value :{0}", n); //Value :10
+            Console.WriteLine("Address :{0}", (int)p); //Address :1988374520
 
 
             //---------------------------------------------------------------------------------------------------
@@ -215,6 +215,7 @@ namespace CSharpTutorials.DataTypesAndVariables
         }
     }
 }
+
 
 
 
