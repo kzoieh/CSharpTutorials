@@ -14,8 +14,9 @@ namespace CSharpTutorials.DataTypesAndVariables
              * Datatypes:
              * Data Types in C# is Mainly Divided into 3 Categories:
                 -Value Data Types - will directly store the variable value in memory. The derived class for these data types are System.ValueType.
-                -Reference Data Types
-                -Pointer Data Type
+                -Reference Data Types - Reference data types in C# store the memory address (reference) of the actual data, not the data itself. 
+                                        They are used for complex types like string, arrays, classes, interfaces and delegates.
+                -Pointer Data Type - 
 
               1. Value Data Types  
               ---------------------------------------------------------------------------------------------------
@@ -47,11 +48,32 @@ namespace CSharpTutorials.DataTypesAndVariables
               2. Reference Data Types
               ---------------------------------------------------------------------------------------------------
              
-             * 6. string "a bc"
-             * 2 bytes per character - Stores a sequence of characters, surrounded by double quotes
-             * 
-             * 7.
-             * 1 byte - Stores true or false values 
+             * 1. string/String -  "a bc" - 16bits per character - Stores a sequence of characters, surrounded by double quotes - System.String
+               
+             * 2 Object -
+                In C#, object is the base type from which all other types (value types and reference types) are derived.
+                Converting a value type to an object is called boxing and converting it back is called unboxing.
+                
+                object obj;
+                obj = 20; //boxing
+                Console.WriteLine(obj); //unboxing
+        
+                // to show type of object using GetType()
+                // Console.WriteLine(obj.GetType()); //System.Int32
+
+                3. Pointer Data Types
+                ---------------------------------------------------------------------------------------------------
+
+                The Pointer Data Types will contain a memory address of the variable value. 
+                To get the pointer details we have a two symbols ampersand (&) and asterisk (*).
+                ampersand (&): It is known as Address Operator. It is used to determine the address of a variable.
+                asterisk (*): It also known as Indirection Operator. It is used to access the value of an address.
+
+                // Valid syntax 
+                int* p1, p;   
+
+                // Invalid
+                int *p1, *p;  
             */
 
             int num;
@@ -80,12 +102,32 @@ namespace CSharpTutorials.DataTypesAndVariables
 
             //e = power of 10
 
-
-            string firstName = "Kasturi";
-            Console.WriteLine(firstName);
-
             bool flag = true;
             Console.WriteLine(flag);
+
+
+            //---------------------------------------------------------------------------------------------------
+
+
+            string firstName = "Kasturi";
+            Console.WriteLine(firstName); 
+            
+
+            object obj;
+            obj = 20; 
+            Console.WriteLine(obj); 
+            
+
+            //---------------------------------------------------------------------------------------------------
+
+                
+            int n = 10; 
+            int* p = &n; // store variable n address location in pointer variable p
+            Console.WriteLine("Value :{0}", n);
+            Console.WriteLine("Address :{0}", (int)p);
+
+
+            //---------------------------------------------------------------------------------------------------
 
             //CONSTANTS IN CSHARP
 
@@ -96,6 +138,10 @@ namespace CSharpTutorials.DataTypesAndVariables
             // You cannot declare a constant variable without assigning the value. If you do, an error will occur:
 
             Console.WriteLine(myNum);
+            
+
+            //---------------------------------------------------------------------------------------------------
+            
 
             //CONCATANATION using +
 
@@ -169,6 +215,7 @@ namespace CSharpTutorials.DataTypesAndVariables
         }
     }
 }
+
 
 
 
