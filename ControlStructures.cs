@@ -213,7 +213,7 @@ namespace ControlStatements
 
             //throw statement
             //throw statement is used to raise exceptions in C#. When an error occurs or a specific condition is met, weuse throw to signal that something unexpected happened. It is used as jump statement we can create custom exception and throw it when the condition is not met accordingly.
-            //Examples in TryCatchException.cs File
+            //Examples in ExceptionHandling.cs File
 
         }
        
