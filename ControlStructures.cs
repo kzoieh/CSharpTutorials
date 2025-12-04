@@ -13,9 +13,9 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 //Switch
 //Nested Switch
 
-namespace ControlStatements
+namespace ControlStructures
 {
-    class ControlStatements
+    class ControlStructures
     {
         public static void Main(string[] args)
         {
