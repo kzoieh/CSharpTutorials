@@ -51,6 +51,7 @@ namespace ProjectName.LogicFiles
 
 {
     class FileName
+    
     /*
      The class name is an indentifier 
      In C#, an identifier can be a class name(FileName), method name(Main), variable name, or label.
@@ -59,8 +60,8 @@ namespace ProjectName.LogicFiles
      Identifiers must not contain whitespace characters.
      Identifiers are not allowed to use as keywords unless they include @ as a prefix.
      C# identifiers allow Unicode Characters, cannot contain more than 512 characters..
-
-
+     */
+     
     {
         public string Variable { get; set; }
         static void Main(string[] args)
